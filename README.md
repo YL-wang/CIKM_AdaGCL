@@ -13,7 +13,7 @@ python saint_graph.py --epochs <epochs> --load_CL <load_CL> --par <par> --rate <
 ``
 <br>
 where `` <par> `` is a contrastive loss ratio. `` <rate> `` is the perturbation ratio of data augmentation. 
-`` <topk> `` is the number of subgraphs involved in contrastive learning. `` <load_CL> `` is to add contrastive learning at the Nth epoch, Default is 0.
+`` <topk> `` is the number of subgraphs involved in contrastive learning. `` <load_CL> `` is to add contrastive learning at the Nth epoch, default is 0.
 
 Cluster-GCN <br>
 ``
