@@ -23,5 +23,5 @@ python cluster_graph.py --epochs <epochs> --load_CL <load_CL> --par <par> --rate
 
 GraphSAGE <br>
 ``
-python cluster_graph.py --epochs <epochs> --load_CL <load_CL> --par <par> --rate <rate>
+python ns_graph.py --epochs <epochs> --par <par> --rate <rate>
 ``
