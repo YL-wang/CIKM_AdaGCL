@@ -7,20 +7,21 @@
 * torch-geometric>=2.0.4
 
 ##### Training
-GraphSAINT
+GraphSAINT <br>
 ``
 python saint_graph.py --epochs <epochs> --load_CL <load_CL> --par <par> --rate <rate> -topk <topk>
 ``
+<br>
 where `` <par> `` is a contrastive loss ratio. `` <rate> `` is the perturbation ratio of data augmentation. 
 `` <topk> `` is the number of subgraphs involved in contrastive learning. `` <load_CL> `` is to add contrastive learning at the Nth epoch, Default is 0.
 
-Cluster-GCN
+Cluster-GCN <br>
 
 ``
 python cluster_graph.py --epochs <epochs> --load_CL <load_CL> --par <par> --rate <rate>
 ``
-
-GraphSAGE
+<br>
+GraphSAGE <br>
 ``
 python cluster_graph.py --epochs <epochs> --load_CL <load_CL> --par <par> --rate <rate>
 ``
