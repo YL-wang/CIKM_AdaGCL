@@ -1,4 +1,4 @@
-# CIKM_AdaGCL
+# AdaGCL: Adaptive Subgraph Contrastive Learning to Generalize Large-scale Graph Training
 ## Experiments
 
 ### Requirements
@@ -25,3 +25,11 @@ GraphSAGE <br>
 ``
 python ns_graph.py --epochs <epochs> --par <par> --rate <rate>
 ``
+
+> @inproceedings{wang2022adagcl,
+  title={AdaGCL: Adaptive Subgraph Contrastive Learning to Generalize Large-scale Graph Training},
+  author={Wang, Yili and Zhou, Kaixiong and Miao, Rui and Liu, Ninghao and Wang, Xin},
+  booktitle={Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
+  pages={2046--2055},
+  year={2022}
+}
